@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de esudante</title>
+
+</head>
+
+<body>
+
+    <div class = "container">
+        <h1>Cadastro de alunos</h1>
+
+        <form id = "cadastroForm">
+            <input type = "text" id="nomeAluno" placeholder="Nome do Aluno" required> 
+            <input type = "text" id="idadeAluno" placeholder="Idade do Aluno" required> 
+            <input type = "text" id="emailAluno" placeholder="Email do Aluno" required> 
+            <button type "submit" id = "btnSalvar"> Cadastrar </button>
+        </form>
+
+        <hr>
+
+        <h2>Lista de Inscritos</h2>
+        <ul id="listaAlunos">
+        </ul>
+    </div>
+    <script src = "script.js"> </script>
+    
+</body>
+</html>
