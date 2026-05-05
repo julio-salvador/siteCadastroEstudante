@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A dalva sem cadastro</title>
+    <title>Cadastro de Alunos</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
-        <h1> Cadastros de alunos</h1>
+        <h1>Cadastro de alunos</h1>
 
-        <form id = "cadastro">
-            <input type = "text" id = "nomeAluno" placeholder="nome do aluno" required>
-            <input type = "text" id = "idadeAluno" placeholder="idade do aluno" required>
-            <input type = "text" id = "loginAluno" placeholder="login do Aluno" required>
-            <input type = "text" id = "pizzaFavorita" placeholder="sua pizza favorita" required>
-            <input type = "text" id = "SN" placeholder="vc gosta de mim? (sim/não)" required>
-            
+        <form id="cadastro">
+            <input type="text" id="nomeAluno" placeholder="Nome do aluno" required>
+            <input type="text" id="idadeAluno" placeholder="Idade do aluno" required>
+            <input type="text" id="loginAluno" placeholder="Login do Aluno" required>
+            <input type="text" id="equipeFavorita" placeholder="Sua equipe favorita" required>
+
             <hr>
-            <button type = "submit" id = "btnSalvar">Cadastrar</button>
+            <button type="submit" id="btnSalvar">Cadastrar</button>
         </form>
 
-    
+        <hr>
 
-    <hr>
-    <img src="gato-joia.gif" alt="">
-
-
-    <h2> Lista de Inscritos</h2>
-    <ul id = "listaAluno">
-
-    </ul>
+        <h2>Lista de Inscritos</h2>
+        <ul id="listaAluno">
+        </ul>
     </div>
-    
 
- <script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

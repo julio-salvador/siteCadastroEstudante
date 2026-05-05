@@ -1,16 +1,16 @@
-body{
+body {
     font-family: sans-serif;
-    background-color: #a000fd;
+    background-color: #f0bc6e;
     display: flex;
     justify-content: center;
     padding: 50px;
 }
 
-.container{
+.container {
     background-color: #ffffff;
     padding: 50px;
     border-radius: 8px;
-    box-shadow: 0px 8px 100px rgb(0, 255, 76) ;
+    box-shadow: 0px 8px 100px rgb(136, 104, 35);
     width: 300px;
 }
 
@@ -19,27 +19,31 @@ form {
     flex-direction: column;
     gap: 10px;
 }
-input, button{
+
+input,
+button {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
-button{
-    background-color: rgb(255, 255, 255), rgb(0, 0, 0);
+
+button {
+    background-color: #ff9100;
     color: rgb(0, 0, 0), rgb(255, 255, 255);
     cursor: pointer;
     border: none;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 0, 0);
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0;
 }
 
-li{
+li {
     background: #eee;
     margin-top: 5px;
     padding: 8px;
@@ -48,6 +52,7 @@ li{
     justify-content: space-between;
 
 }
-h1{
+
+h1 {
     font-variant: unset;
 }
